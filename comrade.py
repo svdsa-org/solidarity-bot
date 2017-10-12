@@ -15,7 +15,7 @@ Join #branch-san-jose :sharks:, #branch-silicon-valley :robot_face:, or both!
 
 To find more discussions and working groups (wg-) click on 'Channels' in the left sidebar.
 
-Solidary :rose:
+Solidarity :rose:
 """
 
 # mapping of phrases to responses
