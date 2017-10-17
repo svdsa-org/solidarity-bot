@@ -1,11 +1,15 @@
 import os
+import sys
+import time
 import logging
-import logging.config
+
 from slackclient import SlackClient
 
 # Logging
-logging.config.fileConfig('logging.conf')
-logger = logging.getLogger('comrade')
+logging.basicConfig(stream=sys.stdout, level=logging.DEBUG,
+  format='%(asctime)s - %(levelname)s - %(message)s ')
+logger = logging.getLogger()
+
 
 # slack config
 slack_token = os.environ["SV_DSA_TOKEN"]
